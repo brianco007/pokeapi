@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <img src="./assets/logo.png" alt="Logo Pokemon" class="logo">
+        <h1>The API</h1>
+    </header>
+
+    <!-- pokemon's info -->
+    <section id="details">
+        <h3 id="detailsName"></h3>
+        <div>
+            <img id="details-img" src="">
+            <img id="details-img2" src="">
+        </div>
+        <div class="numbers">
+            <p id="detailsHeight"></p>
+            <p id="detailsExperience"></p>
+        </div>
+    </section>
+
+    <!-- 20 pokemons -->
+    <p id="listado"></p>
+    <main>
+        <div id="cards"></div>
+    </main>
+    <div class="btns">
+        <button id="previousBtn"> < Previous</button>
+        <button id="nextBtn">Next ></button>
+        <a href="index.html">
+            <img src="./assets/pokeball.png" alt="pokeball" class="pokeball">
+        </a>
+    </div>
+
+    <!-- spinner -->
+    <aside id="spinner" class="hide"></aside>
+
+    <div id="errorMsg" class="hide">
+        <img src="./assets/error.png" alt="Error message">
+        <p>Lo sentimos. Ocurrió un problema</p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
